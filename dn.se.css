@@ -1,20 +1,20 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("dn.se") {
-  .paywall-mask, #paywall-container {
-    display: none;
-  }
-  
-  .paywall-content {
-    overflow: unset !important;
-    height: unset !important;
-  }
-  
-  .articlevideo.hidden {
-    display: unset !important;
-  }
-  
-  .articlevideo.hidden div.clip-deleted-message.hidden {
-    display: none;
-  }
+	.paywall-mask, #paywall-container {
+		display: none;
+	}
+	
+	.paywall-content {
+		overflow: unset !important;
+		height: unset !important;
+	}
+	
+	.articlevideo.hidden {
+		display: unset !important;
+	}
+	
+	.articlevideo.hidden div.clip-deleted-message.hidden {
+		display: none;
+	}
 }
